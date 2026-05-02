@@ -226,7 +226,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 <div class="bg-white rounded-xl shadow-sm border border-stone-200 overflow-hidden">
                     <div class="bg-slate-50 p-6 border-b border-stone-200 pillar-header">
-                        <div class="text-teal-700 font-bold text-xl mb-1 ml-6">Pillar 01</div>
+                        <div class="text-teal-700 font-bold text-xl mb-1 ml-4">Pillar 01</div>
                         <h3 class="font-bold text-slate-800 text-xl">Data Fragmentation & Operational Blindness</h3>
                         <p class="text-sm text-slate-500 mt-1">Five gaps that keep licensing, inspection, and enforcement data isolated from each other.</p>
                     </div>
@@ -256,7 +256,7 @@
 
                 <div class="bg-white rounded-xl shadow-sm border border-stone-200 overflow-hidden">
                     <div class="bg-slate-50 p-6 border-b border-stone-200 pillar-header">
-                        <div class="text-teal-700 font-bold text-xl mb-1 ml-6">Pillar 02</div>
+                        <div class="text-teal-700 font-bold text-xl mb-1 ml-4">Pillar 02</div>
                         <h3 class="font-bold text-slate-800 text-xl">Inter-Agency Coordination & Intelligence Failures</h3>
                         <p class="text-sm text-slate-500 mt-1">Five gaps that prevent effective intelligence sharing with partner agencies.</p>
                     </div>
@@ -286,7 +286,7 @@
 
                 <div class="bg-white rounded-xl shadow-sm border border-stone-200 overflow-hidden">
                     <div class="bg-slate-50 p-6 border-b border-stone-200 pillar-header">
-                        <div class="text-teal-700 font-bold text-xl mb-1 ml-6">Pillar 03</div>
+                        <div class="text-teal-700 font-bold text-xl mb-1 ml-4">Pillar 03</div>
                         <h3 class="font-bold text-slate-800 text-xl">Technology Infrastructure & Workforce Gaps</h3>
                         <p class="text-sm text-slate-500 mt-1">Five gaps that impose a fundamental ceiling on what the Authority can achieve.</p>
                     </div>
@@ -329,31 +329,31 @@
                     <h3 class="text-xl font-bold text-slate-800 mb-8 text-center border-b border-stone-100 pb-4">Data Journey: Source to Intelligence</h3>
                     <div class="flex flex-col items-center space-y-4">
                         <div class="arch-block w-full max-w-sm rounded-lg p-4 text-center bg-stone-50" onclick="showArchDetails('sources', this)">
-                            <div class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-1 ml-6">Stage 0</div>
+                            <div class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-1 ml-4">Stage 0</div>
                             <div class="font-bold text-slate-800 text-lg">Data Sources</div>
                             <div class="text-sm text-slate-500">Licensing DB, ODK, KRA Feeds, Police, Counties</div>
                         </div>
                         <div class="text-stone-300 font-bold text-2xl">&#8595;</div>
                         <div class="arch-block w-full max-w-sm rounded-lg p-4 text-center bg-stone-50" onclick="showArchDetails('ingestion', this)">
-                            <div class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-1 ml-6">Stage A</div>
+                            <div class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-1 ml-4">Stage A</div>
                             <div class="font-bold text-slate-800 text-lg">Integration & Ingestion Layer</div>
                             <div class="text-sm text-slate-500">Managed ETL, Schema Validation, De-duplication</div>
                         </div>
                         <div class="text-stone-300 font-bold text-2xl">&#8595;</div>
                         <div class="arch-block w-full max-w-sm rounded-lg p-4 text-center bg-stone-50" onclick="showArchDetails('warehouse', this)">
-                            <div class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-1 ml-6">Stage B</div>
+                            <div class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-1 ml-4">Stage B</div>
                             <div class="font-bold text-slate-800 text-lg">Cloud Data Warehouse</div>
                             <div class="text-sm text-slate-500">Raw Zone → Clean Zone → Curated Marts</div>
                         </div>
                         <div class="text-stone-300 font-bold text-2xl">&#8595;</div>
                         <div class="arch-block w-full max-w-sm rounded-lg p-4 text-center bg-stone-50" onclick="showArchDetails('analytics', this)">
-                            <div class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-1 ml-6">Stage C & D</div>
+                            <div class="text-xs font-bold text-teal-600 uppercase tracking-widest mb-1 ml-4">Stage C & D</div>
                             <div class="font-bold text-slate-800 text-lg">Analytics & Intelligence</div>
                             <div class="text-sm text-slate-500">Risk Engine, ML Models, Dashboards</div>
                         </div>
                         <div class="w-full max-w-md mt-6 pt-4 border-t-2 border-dashed border-stone-200">
                             <div class="arch-block w-full rounded-lg p-4 text-center bg-slate-800 text-white" onclick="showArchDetails('governance', this)">
-                                <div class="font-bold text-lg mb-1 ml-6">Governance & Security Fabric</div>
+                                <div class="font-bold text-lg mb-1 ml-4">Governance & Security Fabric</div>
                                 <div class="text-xs text-slate-300">RBAC, Data Lineage, Immutable Audit Logs, PII Encryption</div>
                             </div>
                         </div>
@@ -370,7 +370,7 @@
                             <div class="text-teal-300 text-sm font-bold uppercase tracking-wider mb-2" id="ad-stage"></div>
                             <h3 class="text-2xl font-bold mb-4 text-white" id="ad-title"></h3>
                             <div class="mb-6 bg-teal-900/50 p-4 rounded-lg border border-teal-700">
-                                <h4 class="text-xs text-teal-400 uppercase font-bold mb-1 ml-6">Proposed Technology Stack</h4>
+                                <h4 class="text-xs text-teal-400 uppercase font-bold mb-1 ml-4">Proposed Technology Stack</h4>
                                 <p class="font-semibold text-lg" id="ad-tech"></p>
                             </div>
                             <h4 class="text-sm text-teal-400 uppercase font-bold mb-2">Technical Description</h4>
@@ -397,31 +397,31 @@
                     <div class="relative pl-6 border-l-2 border-stone-200 space-y-8">
                         <div class="relative">
                             <div class="timeline-dot"></div>
-                            <div class="text-sm font-bold text-teal-700 mb-1 ml-6">Months 1–4</div>
+                            <div class="text-sm font-bold text-teal-700 mb-1 ml-4">Months 1–4</div>
                             <h4 class="font-bold text-slate-800 text-lg">Phase 1: Foundation & Governance</h4>
                             <p class="text-sm text-slate-600 mt-1">Comprehensive data source audit across all 47 counties. Architectural design and mandatory Data Protection Impact Assessment (DPIA). Cloud contract aligned with ICTA frameworks. Steering committee formed with cross-functional representation.</p>
                         </div>
                         <div class="relative">
                             <div class="timeline-dot"></div>
-                            <div class="text-sm font-bold text-teal-700 mb-1 ml-6">Months 5–9</div>
+                            <div class="text-sm font-bold text-teal-700 mb-1 ml-4">Months 5–9</div>
                             <h4 class="font-bold text-slate-800 text-lg">Phase 2: Core Platform Build & First Ingestion</h4>
                             <p class="text-sm text-slate-600 mt-1">Deploy cloud data warehouse with raw, clean, and curated zones. Construct ELT pipelines for licensing database and standardized ODK inspection forms. Activate immutable audit logging and role-based access controls. Launch data quality monitoring dashboards.</p>
                         </div>
                         <div class="relative">
                             <div class="timeline-dot"></div>
-                            <div class="text-sm font-bold text-teal-700 mb-1 ml-6">Months 10–15</div>
+                            <div class="text-sm font-bold text-teal-700 mb-1 ml-4">Months 10–15</div>
                             <h4 class="font-bold text-slate-800 text-lg">Phase 3: Analytics, Risk Scoring & Dashboards</h4>
                             <p class="text-sm text-slate-600 mt-1">Implement and validate the Risk Scoring Engine in two pilot regions. Roll out Executive and Operational Power BI dashboards with national compliance heatmaps. Begin onboarding partner agency data feeds (KRA, police) under signed MoUs.</p>
                         </div>
                         <div class="relative">
                             <div class="timeline-dot"></div>
-                            <div class="text-sm font-bold text-teal-700 mb-1 ml-6">Months 16–20</div>
+                            <div class="text-sm font-bold text-teal-700 mb-1 ml-4">Months 16–20</div>
                             <h4 class="font-bold text-slate-800 text-lg">Phase 4: Nationwide Expansion & Predictive Pilot</h4>
                             <p class="text-sm text-slate-600 mt-1">Full rollout to all 47 counties with region-specific configurations. Train and validate hotspot prediction ML models on 18 months of normalized historical data. Conduct formal DPA compliance audit. Close the feedback loop: new inspection results automatically refine risk scores.</p>
                         </div>
                         <div class="relative">
                             <div class="timeline-dot bg-slate-800 border-slate-800"></div>
-                            <div class="text-sm font-bold text-teal-700 mb-1 ml-6">Months 21–24</div>
+                            <div class="text-sm font-bold text-teal-700 mb-1 ml-4">Months 21–24</div>
                             <h4 class="font-bold text-slate-800 text-lg">Phase 5: Institutionalisation & Handover</h4>
                             <p class="text-sm text-slate-600 mt-1">Embed platform into formal NACADA SOPs. Conduct train-the-trainer sessions nationwide. Consultants hand over all documentation and code. Publish board-ready impact report quantifying results against baseline KPIs. Define 3-year enhancement roadmap.</p>
                         </div>
